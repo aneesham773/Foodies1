@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:weightSum="1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:baselineAligned="false"
+        android:layout_margin="12dp"
+        android:background="#00000000"
+        android:layout_weight="0.02"
+        android:orientation="horizontal"
+        android:weightSum="1">
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.60">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Pind Tadka"
+                android:textStyle="bold"
+                android:id="@+id/txtRestaurantName"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:layout_centerInParent="true"
+                android:padding="6dp"/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.4"
+            android:layout_marginEnd="10dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtDate"
+                android:layout_centerInParent="true"
+                android:padding="6dp"
+                android:paddingStart="10dp"
+                android:paddingEnd="5dp"
+                android:textStyle="bold"
+                android:layout_marginEnd="10dp"
+                android:text="27/12/2018"
+                android:textAlignment="textEnd"
+                android:textColor="#909090"
+                android:textSize="15sp"/>
+
+        </RelativeLayout>
+    </LinearLayout>
+
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:paddingStart="10dp"
+            android:paddingEnd="50dp"
+            android:layout_width="match_parent"
+            android:layout_below="@id/txtHorizontal"
+            android:layout_height="match_parent"
+            android:layout_weight="0.90"
+            android:id="@+id/recyclerViewItemsOrdered"
+            tools:ignore="ObsoleteLayoutParam" />
+    <TextView
+        android:layout_width="match_parent"
+        android:id="@+id/txtHorizontal"
+        android:layout_height="1dp"
+        android:layout_marginTop="5dp"
+        android:background="#909090"/>
+</LinearLayout>
+
+

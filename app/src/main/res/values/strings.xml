@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Foodies</string>
+    <string name="preference_file_name" />
+    <string name="enter_mobile_number">Mobile Number(10 digits)</string>
+    <string name="enter_password">Password</string>
+    <string name="log_in">Login</string>
+    <string name="shared_preferences">Restaurant Choices</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="register_yourself">Don\'t have an account?Sign up now</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="mobile_number_10_digits">Mobile Number(10 digits)</string>
+    <string name="register">Register</string>
+    <string name="submit">Submit</string>
+    <string name="open_drawer">Open Drawer</string>
+    <string name="close_drawer">Close Drawer</string>
+    <string name="question1">Q1.How do I know my order is confirmed?</string>
+    <string name="answer1">A1.A notification will pop up in your device using which you have ordered once your order is successfully placed.</string>
+    <string name="question2">Q2.Why is Foodies doing this?</string>
+    <string name="answer2">A2.At Foodies we strive to add value to your business.We understand the challenges you face on a daily basis in sourcing the best quality packaging material.</string>
+    <string name="question3">Q3.How are you guys different?</string>
+    <string name="answer3">A3.We only list the products which have passed our tests and are best suitable for delivery.We have negotiated rates with our distributors exclusive for Foodies</string>
+    <string name="question4">Q4.Do i have to register before placing an order?</string>
+    <string name="answer4">A4.Yes it is necessary for you to register ,only after that you can login and place an order.</string>
+</resources>
